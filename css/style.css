@@ -1,3 +1,48 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+	background-color: LightGray;
+}
 
+div, .navbar{
+	border: 1px solid Chocolate;
+}
+
+.navbar{
+	margin-top:0.2em;
+	height:85px;
+	background-color:#FFFFFF;
+}
+
+.navbar .content{
+	width: 55em;
+	height:85px;
+	margin:0 auto;
+}
+
+.navbar .left{
+	display: block;
+	float:left;
+}
+
+.navbar .right{
+	display: block;
+	float:right;
+}
+
+.navbar .left .brand .logo{
+	background: url('../img/karma-wordmark.svg') center center no-repeat;
+	height: 5em;
+	width: 26px;
+	display:block;
+}
+
+.navbar .menu>li{
+	display: inline-block;
+	padding: 2em 1em;
+}
+
+.navbar .menu>li>a{
+	color: Green;
+	text-decoration: none;
+}
