@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document 3Section2.css */
+/* 
+	STYLES OUTLINE
+	1) Layout and typography for Document and Header (1Header.css)
+	2) Layout and typography for Section 1 (2Section1.css)
+	3) Layout and typography for Section 2 (3Section2.css)
+	4) Layout and typography for Section 3
+	5) Layout and typography for Section 4
+	5) Layout and typography for Footer
+*/
+
+/* 	1) Layout and typography for Section 2 */
+.karma-outline{
+	width: 60em;
+	margin: 0 auto;
+	height: 42em;
+	padding: 8em 0;
+	box-sizing:border-box;
+	text-align:center;
+	background-color:#ffffff;
+}
+
+.karma-outline>h1{
+	color:#1d1e21;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:3em;
+}

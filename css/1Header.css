@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document 1Header.css*/
+/* 
+	STYLES OUTLINE
+	1) Layout and typography for Document and Header (1Header.css)
+	2) Layout and typography for Section 1
+	3) Layout and typography for Section 2
+	4) Layout and typography for Section 3
+	5) Layout and typography for Section 4
+	5) Layout and typography for Footer
+*/
+
+/* 	1) Layout and typography for Document */
+body{
+	background-color:#B7B7B7;
+}
+
+div, .top-navigator{
+	border-color:#144CFB;
+}
+
+/* 	1) Layout and typography for Header */
+.top-navigator{
+	background-color:#ffffff;
+	width: 60em;
+	height: 5em;
+	margin: 0 auto;
+	padding: 1em 0.5em;
+	box-sizing: border-box;
+}
+
+.top-navigator>.logo{
+	height:40px;
+}
+
+.top-navigator>.links{
+	display: block;
+	float: right;
+	padding: 1em 0;
+}
+
+.top-navigator>.links>li{
+	display: inline-block;
+	padding: 0 0.75em;
+	font-family: 'Roboto' sans-serif;
+	font-size: 1em;
+	letter-spacing: 0.03em;
+	color: #838994;
+	-webkit-font-smooting: antialiased;
+}
+
+.top-navigator>.links>li:hover{
+	cursor: pointer;
+	color:#4c5058;
+}
+
+.top-navigator>.links>.active{
+	font-weight:600;
+	color:#4c5058;
+}
+
+/* 	1) Layout and typography for Document */
