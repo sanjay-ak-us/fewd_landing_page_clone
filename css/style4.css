@@ -40,6 +40,7 @@ section, div{
 /* End Document and Common Laout*/
 
 /* 	1) Layout and typography for Header */
+
 .top-navigator{
 	background-color:#ffffff;
 	height: 4.4em;
@@ -49,6 +50,7 @@ section, div{
 
 .top-navigator>.logo{
 	height:40px;
+	float:left;
 }
 
 .top-navigator>.links{
@@ -277,6 +279,10 @@ section, div{
 	line-height:3.4em;
 }
 
+.karma-footer .list-unstyled{
+	list-style-type:none;
+}
+
 .karma-footer li{
 	padding: .1em 0.1em;
 	margin-bottom:0.3em;
@@ -289,11 +295,75 @@ section, div{
 .karma-footer .header{
 	padding: .1em 0;
 	margin-bottom:0.5em;
-	display: list-item;
+	display: block;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:1em;
 	font-weight:bold;
 	color:#4c5058;
+}
+
+.karma-footer .input-group{
+	position:relative;
+}
+
+.karma-footer .form-control{
+	float:left;
+	position:relative;
+	z-index:2;
+	padding-top:22px;
+	padding-left:12px;
+	padding-right:12px;
+	padding-bottom:6px;
+	border-style:solid;
+	border-width:.1em;
+	border-radius: 4px;
+	border-color: #caccd1;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	color:#4c5058;
+}
+
+.karma-footer .in{
+	position:absolute;
+	top:8px;
+	left:14px;
+	z-index:1000;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:0.85em;
+	font-weight:bold;
+	color:#838994;
+}
+
+.karma-footer .in:after{
+	
+	content:"*";
+	color:#f15a29;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serfi;
+	font-size:1.2em;
+	font-weight:600;
+}
+
+.karma-footer .btn{
+	padding:14px 14px;
+	margin-left:0px;
+	background-color:#ffffff;
+	border-width:.1em;
+	border-radius: 4px;
+	border-color: #caccd1;
+}
+
+
+.fa-arrow-right{
+	color: #f15a29;
+	cursor: pointer;
+}
+
+.arrow-right:before {
+	content: ">";
+	color: #f15a29;
+	font-size:24;
+	font-weight:bold;
 }
 
 hr{
@@ -301,5 +371,44 @@ hr{
 	clear:left;	
 	color:#838994;
 }
+
+.karma-footer .row .container{
+	text-align:center;
+}
+
+.list-inline li{
+	display:inline-block;
+	padding: 0 5px;	
+}
+
+.list-inline li a{
+	display:inline-block;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #eaebec;
+	border-top-left-radius:21px;
+	border-top-right-radius:21px;
+	border-bottom-left-radius:21px;
+	border-bottom-right-radius:21px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serfi;
+	font-size:14px;
+	height: 42px;
+	width:42px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.list-inline li a i:before{
+	display:block;
+	padding:15px 0;
+}
+
+
+.karma-footer .row .container .text-center{
+	text-align:center;
+	padding-top: 0.5em;
+	color:#838994;
+}
+
 
 /* 	5) END Layout and typography for Section 4 */
