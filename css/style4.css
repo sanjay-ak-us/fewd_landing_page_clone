@@ -17,6 +17,10 @@ body{
 }
 */
 /* for testing purposes. To check the layout of divs */
+html{
+	-webkit-font-smoothing: antialiased;
+}
+
 section, div{
 	border-color:#144CFB;
 }
@@ -40,6 +44,12 @@ section, div{
 /* End Document and Common Laout*/
 
 /* 	1) Layout and typography for Header */
+
+.top-navigator1{
+	background-color:#ffffff;
+	width:100%;
+	position: fixed;
+}
 
 .top-navigator{
 	background-color:#ffffff;
